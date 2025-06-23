@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alpacagenerator/static/css/main.23f27e66.css",
+    "main.js": "/alpacagenerator/static/js/main.1cade834.js",
+    "static/js/453.8daf075c.chunk.js": "/alpacagenerator/static/js/453.8daf075c.chunk.js",
+    "index.html": "/alpacagenerator/index.html",
+    "main.23f27e66.css.map": "/alpacagenerator/static/css/main.23f27e66.css.map",
+    "main.1cade834.js.map": "/alpacagenerator/static/js/main.1cade834.js.map",
+    "453.8daf075c.chunk.js.map": "/alpacagenerator/static/js/453.8daf075c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23f27e66.css",
+    "static/js/main.1cade834.js"
+  ]
+}
