@@ -15,7 +15,7 @@ function CategoryOptions({SelectedOption, Styles ,ChangeStyles, options}){
         SetSelectedStyle(e.target.name);
         const NewStyle = {
             ...Styles,
-            [SelectedOption]: "/alpaca/" + SelectedOption + '/' + e.target.name + '.png'
+            [SelectedOption]: "alpaca/" + SelectedOption + '/' + e.target.name + '.png'
         }
         console.log(NewStyle)
         ChangeStyles(NewStyle);

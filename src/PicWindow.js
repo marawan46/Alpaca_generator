@@ -18,9 +18,9 @@ const NewRandomStyle = {};
 for (let [category, itemList] of Object.entries(options)) {//loop through option object keys ,key in category and the array in itemlist
   const randomIndex = Math.floor(Math.random() * itemList.length);//pick random index
   const chosen = itemList[randomIndex];//add the chosen random option to chosen
-  NewRandomStyle[category] = `/alpaca/${category}/${chosen}.png`; //add the new style with it's category
+  NewRandomStyle[category] = `alpaca/${category}/${chosen}.png`; //add the new style with it's category
 }
-NewRandomStyle.Nose = "/alpaca/nose.png";
+NewRandomStyle.Nose = "alpaca/nose.png";
 ChangeStyles(NewRandomStyle)
 
 }

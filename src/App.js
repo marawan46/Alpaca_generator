@@ -9,15 +9,15 @@ function App() {
     const [SelectedCategoryOption, SetSelectedCategoryOption] = useState("Ears")
     
     const [AlpacaStyles,SetAlpacaStyles] = useState({
-    accessories:"/alpaca/accessories/earings.png",
-    backgrounds:"/alpaca/backgrounds/blue50.png",
-    ears:"/alpaca/ears/default.png",
-    eyes:"/alpaca/eyes/angry.png",
-    hair:"/alpaca/hair/bang.png",
-    leg:"/alpaca/leg/bubble-tea.png",
-    mouth:"/alpaca/mouth/default.png",
-    neck:"/alpaca/neck/default.png",
-    Nose:"/alpaca/nose.png"
+    accessories:"alpaca/accessories/earings.png",
+    backgrounds:"alpaca/backgrounds/blue50.png",
+    ears:"alpaca/ears/default.png",
+    eyes:"alpaca/eyes/angry.png",
+    hair:"alpaca/hair/bang.png",
+    leg:"alpaca/leg/bubble-tea.png",
+    mouth:"alpaca/mouth/default.png",
+    neck:"alpaca/neck/default.png",
+    Nose:"alpaca/nose.png"
 })
     //add category option and it's options here
     const options = {
